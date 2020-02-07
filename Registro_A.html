@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registro de Estudiante</title>
+</head>
+<body>
+    <center>
+        <p>Bienvenidos al Registro del Estudiante, porfavor complete los campos con la informacion requerida</p>
+        <div>
+                <form method="post">
+                    <br>
+                    <input pattern="[a-zA-ZñÑ]{3,30}" required type="text" placeholder="Ingrese su nombre compreto">
+                    <br><br>
+                    <input pattern="[a-zA-ZñÑ]{4,50}" required type="text" placeholder="Ingrese su carrera">
+                    <br><br>
+                    <input type="text" required pattern="[0-9]{4}-[0-9]{4}" name="telefono"  placeholder="Ingrese numero de tel...">
+                    <br><br>
+                    <input type="text">
+                    <textarea pattern="[\w]{10,50}" required cols="30" rows="2" placeholder="Ingrese su direccion"></textarea>
+                    <br><br>
+                    <p>Seleccione su genero</p>
+                    <br>
+                    <input type="checkbox" id="mujer"><label for="mujer">Femenino</label>
+                    <input type="checkbox" id="hombre"><label for="hombre">Masculino</label>
+                    <br>
+                    <input type="button" value="Registrar">
+                </form>    
+        </div>
+   </center>
+</body>
+</html>
