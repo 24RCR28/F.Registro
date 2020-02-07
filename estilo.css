@@ -1,0 +1,32 @@
+ul{
+    list-style-type: none;
+    margin: o;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(60, 240, 201);
+}
+
+ul{
+    float: left;
+}
+
+ul a{
+    display: block;
+    color: rgb(7, 7, 7);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul a:hover{
+    background-color: rgb(45, 192, 218);
+}
+
+.active {
+    background-color: burlywood;
+}
+
+body{
+   font-size: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+}
