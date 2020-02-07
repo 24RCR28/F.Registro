@@ -1,0 +1,48 @@
+body{
+    background-color: rgba(176, 233, 233, 0.767);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+}
+body p{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    line-height: 1;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 1.5em;
+    text-align: center;
+}
+
+input, textarea{
+    width: 250px;
+    text-align: center;
+    height: 25px;
+    border-radius: 2px;
+}
+textarea{
+    height: auto;
+}
+input[type=submit]{
+    background-color: #000000;
+    color: rgba(95, 199, 185, 0.884);
+    text-transform: uppercase;
+    height: 10px;
+    width: 50px;
+    font-weight: bolder;
+    border: 0px;
+}
+
+input[type=submit]:hover,
+input[type=button]:hover{
+    background-color: rgb(167, 199, 197);
+    color: rgb(8, 8, 8);
+}
+
+input[type=text]:invalid{
+    border-bottom: solid 5px #2a2b2a;
+}
+label{
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
