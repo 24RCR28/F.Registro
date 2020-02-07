@@ -5,7 +5,7 @@ body{
     padding-bottom: 5px;
 }
 body p{
-    color: rgb(3, 3, 3);
+    color: rgb(0, 0, 0);
     font-size: 15px;
     line-height: 1;
     font-family: 'Quicksand', sans-serif;
@@ -24,7 +24,7 @@ textarea{
 }
 input[type=submit]{
     background-color: #000000;
-    color: rgb(241, 0, 0);
+    color: rgba(108, 209, 184, 0.836);
     text-transform: uppercase;
     height: 10px;
     width: 50px;
